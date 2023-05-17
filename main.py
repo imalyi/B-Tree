@@ -39,6 +39,8 @@ class Tree:
     def insert(self, val: int) -> None:
         pass
 
+    def split_
+
     def insert_non_full(self, value: int):
         i = 0
         try:
@@ -62,8 +64,6 @@ class Tree:
         if node.leaf:
             return None
         return self.search_rec(node.keys[i], key)
-
-
 
 
 def test_search():
